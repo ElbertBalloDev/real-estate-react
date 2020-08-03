@@ -26,7 +26,6 @@ const MortgageCalculator = () => {
     interest: '',
     months: 360,
   });
-  // const [formFilled, setFormFilled] = useState(false);
   const [mortgage, setMortgage] = useState('');
 
   const inputLoanDetails = (e) => {
