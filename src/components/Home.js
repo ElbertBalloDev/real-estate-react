@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const MainBody = () => {
+const Home = () => {
   return (
     <Wrapper>
       <Welcome />
@@ -26,4 +26,4 @@ const MainBody = () => {
   );
 };
 
-export default MainBody;
+export default Home;

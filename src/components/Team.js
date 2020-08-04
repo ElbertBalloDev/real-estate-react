@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import styled from 'styled-components';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import { UserContext } from './Hooks/UserContext';
+import { UserContext } from './Context/UserContext';
 
 const Wrapper = styled.section`
   align-items: center;

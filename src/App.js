@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import styled from 'styled-components';
 import Navbar from './components/Navbar';
-import MainBody from './components/MainBody';
-import { UserProvider } from './components/Hooks/UserContext';
+import Home from './components/Home';
+import { UserProvider } from './components/Context/UserContext';
 
 const Wrapper = styled.div`
   display: flex;
@@ -14,7 +14,7 @@ function App() {
     <Wrapper>
       <Navbar />
       <UserProvider>
-        <MainBody />
+        <Home />
       </UserProvider>
     </Wrapper>
   );
